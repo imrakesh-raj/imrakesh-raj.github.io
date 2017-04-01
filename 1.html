@@ -163,8 +163,687 @@ line breaks.
   <p class="bg-danger"><b>.bg-danger</b>: This text represents danger.</p>
 </div>
 
+<hr />
+<div class="container">
+  <h2>Typography</h2>
+  <p class="text-left"><b>.text-left</b>: Left-aligned text.</p>
+  <p class="text-right"><b>.text-right</b>: Right-aligned text.</p>      
+  <p class="text-center"><b>.text-center</b>: Center-aligned text.</p>
+  <p class="text-justify"><b>.text-justify</b>: Justified text. Justified text. Justified text. Justified text. Justified text. Justified text.</p>      
+  <p class="text-nowrap"><b>.text-nowrap</b>: No wrap text. No wrap text. No wrap text. No wrap text.</p>
+  <p><strong>Tip:</strong> Try to resize the browser window to see the behaviour of justify and nowrap.</p>      
+</div>
+
+<hr />
+<div class="container">
+  <h2>Typography</h2>
+  <p class="text-lowercase"><b>.text-lowercase</b>: Lowercased text.</p>
+  <p class="text-uppercase"><b>.text-uppercase</b>: Uppercased text.</p>      
+  <p class="text-capitalize"><b>.text-capitalize</b>: text.</p>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Typography</h2>
+  <p>The class <b>.list-unstyled</b> removes the default list-style and left margin on list items (immediate children only):</p>
+  <ul class="list-unstyled">
+    <li>Coffee</li>
+    <li>Tea
+      <ul>
+        <li>Black tea</li>
+        <li>Green tea</li>
+      </ul>
+    </li>
+    <li>Milk</li>
+  </ul>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Typography</h2>
+  <p>The class <b>.list-inline</b> places all list items on a single line:</p>
+  <ul class="list-inline">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Typography</h2>
+  <p>Use the <b>.dl-horizontal</b> class line up the description list side-by-side when the browser window expands:</p>
+  <dl class="dl-horizontal">
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl>     
+  <p><strong>Tip:</strong> Try to resize the browser window to see the behaviour of the description list.</p>      
+</div>
+
+<hr />
+<div class="container">
+  <h2>Code</h2>    
+     
+  <p>For multiple lines of code, use the <b>pre</b> element:</p>
+  <pre>Text in a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+  line breaks.</pre>
+
+  <p>If you add the <p>.pre-scrollable</p> class, the pre element gets a max-height of 350px and provides a y-axis scrollbar:</p>
+  <pre class="pre-scrollable">Text in a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+  line breaks.</pre>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Basic Table</h2>
+  <p>The <b>.table</b> class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Striped Rows</h2>
+  <p>The <b>.table-striped</b> class adds zebra-stripes to a table:</p>            
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Bordered Table</h2>
+  <p>The <b>.table-bordered</b> class adds borders to a table:</p>            
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Hover Rows</h2>
+  <p>The <b>.table-hover</b> class enables a hover state on table rows:</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Contextual Classes</h2>
+  <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Default</td>
+        <td>Defaultson</td>
+        <td>def@somemail.com</td>
+      </tr>      
+      <tr class="success">
+        <td>Success</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="danger">
+        <td>Danger</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="info">
+        <td>Info</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr class="warning">
+        <td>Warning</td>
+        <td>Refs</td>
+        <td>bo@example.com</td>
+      </tr>
+      <tr class="active">
+        <td>Active</td>
+        <td>Activeson</td>
+        <td>act@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Table</h2>
+  <p>The <b>.table-responsive</b> class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>                                                                                      
+  <div class="table-responsive">          
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Anna</td>
+        <td>Pitt</td>
+        <td>35</td>
+        <td>New York</td>
+        <td>USA</td>
+      </tr>
+	  <tr>
+        <td>2</td>
+        <td>Banna</td>
+        <td>Sitt</td>
+        <td>25</td>
+        <td>New York</td>
+        <td>USA</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Rounded Corners</h2>
+  <p>The <b>.img-rounded</b> class adds rounded corners to an image (not available in IE8):</p>            
+  <img src="images/1.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+</div>
+
+<hr />
+<div class="container">
+  <h2>Circle</h2>
+  <p>The <b>.img-circle</b> class shapes the image to a circle (not available in IE8):</p>            
+  <img src="images/2.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+</div>
+
+<hr />
+<div class="container">
+  <h2>Image</h2>
+  <p>The <b>.img-responsive</b> class makes the image scale nicely to the parent element (resize the browser window to see the effect):</p>
+  <img class="img-responsive" src="images/3.jpg" alt="Chania" width="460" height="345"> 
+</div>
+
+<hr />
+<div class="container">
+  <h2>Image Gallery</h2>
+  <p>The <b>.thumbnail</b> class can be used to display an image gallery.</p>
+  <p>The <b>.caption</b> class adds proper padding and a dark grey color to text inside thumbnails.</p>
+  <p>Click on the images to enlarge them.</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="images/1.jpg" target="_blank">
+          <img src="images/1.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="images/2.jpg" target="_blank">
+          <img src="images/2.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="images/3.jpg" target="_blank">
+          <img src="images/3.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Responsive Embed</h2>
+  <p>Create a responsive video and scale it nicely to the parent element with an 16:9 aspect ratio <b>.embed-responsive .embed-responsive-16by9</b></p>
+  <div class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-oZDfcOVqvo" ></iframe>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Responsive Embed</h2>
+  <p>Create a responsive video and scale it nicely to the parent element.</p>
+  
+  <p>Aspect ratio 4:3 <b>.embed-responsive .embed-responsive-4by3</b></p>
+  <div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aXkhwJku09A"></iframe>
+  </div>
+  
+  <p>Aspect ratio 16:9 <b>.embed-responsive .embed-responsive-16by9</b></p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TCWa12FcfI0"></iframe>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <div class="jumbotron">
+    <h1>Bootstrap Tutorial <b>.jumbotron</b></h1>      
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+  </div>
+  <p>This is some text.</p>      
+  <p>This is another text.</p>      
+</div>
+
+<hr />
+<div class="container">
+  <div class="page-header">
+    <h1>Example Page Header <b>.page-header</b></h1>      
+  </div>
+  <p>This is some text.</p>      
+  <p>This is another text.</p>      
+</div>
+
+<br />
+<div class="container">
+  <h2>Well <b>.well</b></h2>
+  <div class="well">Basic Well</div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Well Size</h2>
+  <div class="well well-sm"><b>.well .well-sm</b>: Small Well</div>
+  <div class="well"><b>.well</b>: Normal Well</div>
+  <div class="well well-lg"><b>.well .well-lg</b>: Large Well</div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Alerts</h2>
+  <div class="alert alert-success">
+    <strong>Success!</strong> <b>.alert .alert-success</b>: This alert box could indicate a successful or positive action.
+  </div>
+  <div class="alert alert-info">
+    <strong>Info!</strong> <b>.alert .alert-info</b>: This alert box could indicate a neutral informative change or action.
+  </div>
+  <div class="alert alert-warning">
+    <strong>Warning!</strong> <b>.alert .alert-warning</b>: This alert box could indicate a warning that might need attention.
+  </div>
+  <div class="alert alert-danger">
+    <strong>Danger!</strong> <b>.alert .alert-danger</b>: This alert box could indicate a dangerous or potentially negative action.
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Alert Links</h2>
+  <p>Add the alert-link class to any links inside the alert box to create "matching colored links".</p>
+  <div class="alert alert-success">
+    <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  <div class="alert alert-info">
+    <strong>Info!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  <div class="alert alert-warning">
+    <strong>Warning!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  <div class="alert alert-danger">
+    <strong>Danger!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Alerts</h2>
+  <p>The a element with <b>class="close"</b> and <b>data-dismiss="alert"</b> is used to close the alert box.</p>
+  <p>The alert-dismissible class adds some extra padding to the close button.</p>
+  <div class="alert alert-success alert-dismissable">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+  </div>
+  <div class="alert alert-info alert-dismissable">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+  </div>
+  <div class="alert alert-warning alert-dismissable">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+  </div>
+  <div class="alert alert-danger alert-dismissable">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Animated Alerts</h2>
+  <p>The <b>.fade</b> and <b>.in</b> classes adds a fading effect when closing the alert message.</p>
+  <div class="alert alert-success alert-dismissable fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+  </div>
+  <div class="alert alert-info alert-dismissable fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+  </div>
+  <div class="alert alert-warning alert-dismissable fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+  </div>
+  <div class="alert alert-danger alert-dismissable fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Button Styles  <b>.btn .btn-default .btn-primary .btn-success .btn-info .btn-warning .btn-danger .btn-link</b></h2>
+  <button type="button" class="btn">Basic</button>
+  <button type="button" class="btn btn-default">Default</button>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-link">Link</button>      
+</div>
+
+<hr />
+<div class="container">
+  <h2>Button Tags</h2>
+  <a href="#" class="btn btn-info" role="button">Link Button</a>
+  <button type="button" class="btn btn-info">Button</button>
+  <input type="button" class="btn btn-info" value="Input Button">
+  <input type="submit" class="btn btn-info" value="Submit Button">
+</div>
+
+<hr />
+<div class="container">
+  <h2>Button Sizes <b>.btn .btn-primary .btn-lg .btn-md .btn-sm .btn-xs</b> </h2>
+  <button type="button" class="btn btn-primary btn-lg">Large</button>
+  <button type="button" class="btn btn-primary btn-md">Medium</button>    
+  <button type="button" class="btn btn-primary btn-sm">Small</button>
+  <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Block Level Buttons <b>.btn .btn-primary .btn-block </b></h2>
+  <button type="button" class="btn btn-primary btn-block">Button 1</button>
+  <button type="button" class="btn btn-info btn-block">Button 2</button>
+
+  <h2>Large Block Level Buttons</h2>
+  <button type="button" class="btn btn-primary btn-lg btn-block">Button 1</button>
+  <button type="button" class="btn btn-dangerous btn-lg btn-block">Button 2</button>
+
+  <h2>Small Block Level Buttons</h2>
+  <button type="button" class="btn btn-primary btn-sm btn-block">Button 1</button>
+  <button type="button" class="btn btn-success btn-sm btn-block">Button 2</button>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Button States <b>.active .disabled</b></h2>
+  <button type="button" class="btn btn-primary">Primary Button</button>
+  <button type="button" class="btn btn-primary active">Active Primary</button>
+  <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Button Group</h2>
+  <p>The <b>.btn-group</b> class creates a button group:</p>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Button Groups - Set Sizes</h2>
+  <p>Add class <b>.btn-group .btn-group-lg .btn-group-sm .btn-group-xs</b> to size all buttons in a button group.</p>
+  <h3>Large Buttons:</h3>
+  <div class="btn-group btn-group-lg">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+  <h3>Default Buttons:</h3>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+  <h3>Small Buttons:</h3>
+  <div class="btn-group btn-group-sm">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+  <h3>Extra Small Buttons:</h3>
+  <div class="btn-group btn-group-xs">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+</div>
+
+<hr />
 
 
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+
+<hr />
+
+
+
+<hr />
+
+
+
+<hr />
+
+
+
+<hr />
+
+
+
+<hr />
+
+
+
+<hr />
+
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+<hr />
+
+
+
+<hr />
 
 </body>
 </html>
