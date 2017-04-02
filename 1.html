@@ -1074,7 +1074,7 @@ line breaks.
 <hr />
 <div class="container">
   <h2>Breadcrumbs</h2>
-  <p>The <b>.breadcrumb<b> class indicates the current page's location within a navigational hierarchy:</p>                  
+  <p>The <b>.breadcrumb</b> class indicates the current page's location within a navigational hierarchy:</p>                  
   <ul class="breadcrumb">
     <li><a href="#">Home</a></li>
     <li><a href="#">Private</a></li>
@@ -1202,55 +1202,324 @@ line breaks.
 </div>
 
 <hr />
-
-
-<hr />
-
-
-<hr />
-
-
-<hr />
-
+<div class="container">
+  <h2>Panel Heading</h2> <b>.panel .panel-default .panel-heading .panel-body</b>
+  <div class="panel panel-default">
+    <div class="panel-heading">Panel Heading</div>
+    <div class="panel-body">Panel Content</div>
+  </div>
+</div>
 
 <hr />
-
-
-<hr />
-
-
-<hr />
-
-
-<hr />
-
+<div class="container">
+  <h2>Panel Footer</h2> <b>.panel .panel-default .panel-heading .panel-body .panel-footer</b>
+  <div class="panel panel-default">
+    <div class="panel-heading">Panel Heading</div>
+    <div class="panel-body">Panel Content</div>
+    <div class="panel-footer">Panel Footer</div>
+  </div>
+</div>
 
 <hr />
-
-
-<hr />
-
-
-<hr />
-
-
-<hr />
-
-
-<hr />
-
-
-<hr />
-
-
-<hr />
-
-
-<hr />
-
+<div class="container">
+  <h2>Panel Group</h2>
+  <p> <b>.panel-group</b> .panel .panel-default .panel-heading .panel-body .panel-footer</p>
+  <p>The panel-group class clears the bottom-margin. Try to remove the class and see what happens.</p>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">Panel Header</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">Panel Header</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">Panel Header</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+  </div>
+</div>
 
 <hr />
+<div class="container">
+  <h2>Panels with Contextual Classes</h2>
+  <p> <b>.panel-group</b> .panel .panel-default .panel-primary .panel-success .panel-danger .panel-heading .panel-body .panel-footer</p>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">Panel with panel-default class</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
 
+    <div class="panel panel-primary">
+      <div class="panel-heading">Panel with panel-primary class</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+
+    <div class="panel panel-success">
+      <div class="panel-heading">Panel with panel-success class</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+
+    <div class="panel panel-info">
+      <div class="panel-heading">Panel with panel-info class</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+
+    <div class="panel panel-warning">
+      <div class="panel-heading">Panel with panel-warning class</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+
+    <div class="panel panel-danger">
+      <div class="panel-heading">Panel with panel-danger class</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Dropdowns</h2>
+  <p>The <b>.dropdown</b> class is used to indicate a dropdown menu.</p>
+  <p>Use the <b>.dropdown-menu</b>  class to actually build the dropdown menu.</p>
+  <p>To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and data-toggle="dropdown".</p>                                          
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Dropdowns</h2>
+  <p>The <b>.divider</b> class is used to separate links inside the dropdown menu with a thin horizontal line:</p>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li class="divider"></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Dropdowns</h2>
+  <p>The <b>.dropdown-header</b> class is used to add headers inside the dropdown menu:</p>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-header">Dropdown header 1</li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li class="divider"></li>
+      <li class="dropdown-header">Dropdown header 2</li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Dropdowns</h2>
+  <p>The <b>.active</b> class adds a blue background color to the active link.</p>
+  <p>The <b>.disabled</b> class disables a dropdown item (grey text color).</p>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Normal</a></li>
+      <li class="disabled"><a href="#">Disabled</a></li>
+      <li class="active"><a href="#">Active</a></li>
+      <li><a href="#">Normal</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Dropdowns</h2>
+  <p>Add the <b>.dropdown-menu-right</b> class to <b>.dropdown-menu</b> to right-align the dropdown menu:</p>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-right">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li class="divider"></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Dropdowns</h2>
+  <p>The <b>.dropup</b> class makes the dropdown menu expand upwards instead of downwards:</p>
+  <div class="dropup">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropup Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li class="divider"></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Dropdowns</h2>
+  <p>The <b>.dropdown</b> class is used to indicate a dropdown menu.</p>
+  <p>Use the <b>.dropdown-menu</b> class to actually build the dropdown menu.</p>                                          
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Tutorials
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Simple Collapsible </h2> <b>.collapse</b>
+  <p>Click on the button to toggle between showing and hiding content.</p>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Simple Collapsible</h2>
+  <a href="#demo1" class="btn btn-danger" data-toggle="collapse">Simple collapsible</a>
+  <div id="demo1" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Simple Collapsible</h2> <b>.collapse .in</b>
+  <p>Click on the button to toggle between showing and hiding content.</p>
+  <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo2">Simple collapsible</button>
+  <div id="demo2" class="collapse in">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Collapsible Panel</h2>
+  <p>Click on the collapsible panel to open and close it.</p>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">Panel Body</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Collapsible List Group</h2> <b>.panel-group .panel .panel-default .panel-heading .panel-title .panel-collapse .collapse</b>
+  <p>Click on the collapsible panel to open and close it.</p>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse2">Collapsible list group</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item">One</li>
+          <li class="list-group-item">Two</li>
+          <li class="list-group-item">Three</li>
+        </ul>
+        <div class="panel-footer">Footer</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr />
+<div class="container">
+  <h2>Accordion Example</h2>
+  <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 1</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse in">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Collapsible Group 2</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Collapsible Group 3</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+  </div> 
+</div>
 
 <hr />
 
